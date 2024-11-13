@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri</title>
+    <style>
+        /* Body styling */
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 20px;
+            padding: 10px;
+            background-image: url('https://assets.onecompiler.app/42wr9jfq7/42wr9mkdg/Wallpaper%20gray%20bw%20clouds%20sky.jfif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: black;
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Navbar styling */
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+
+        /* Headings styling */
+        h1 {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        /* Profile Section */
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            flex-grow: 1;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* List styling */
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        /* Link styling */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+        <h1>Biodata Diri</h1>
+
+        <!-- Profile Section -->
+        <div class="profile" id="about">
+            <img src="https://assets.onecompiler.app/42wr9jfq7/42wr9mkdg/WhatsApp%20Image%202024-10-31%20at%2020.37.35.jpeg" alt="Foto Profil">
+            <div class="profile-info">
+                <h2>About Me</h2>
+                <p>Halo! Nama saya Omar Athaya Vito, seorang mahasiswa S1 Program Studi Teknik Informatika ITERA. Saya senang mencoba hal-hal baru dan mencari solusi inovatif.</p>
+            </div>
+        </div>
+
+        <!-- Informasi Pribadi -->
+        <h2>Informasi Pribadi</h2>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <td>Omar Athaya Vito</td>
+            </tr>
+            <tr>
+                <th>NIM</th>
+                <td>123140198</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Rajabasa, Bandar Lampung</td>
+            </tr>
+            <tr>
+                <th>Telepon</th>
+                <td>08979119360</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><a href="mailto:omar.123140198@student.itera.ac.id">omar.123140198@student.itera.ac.id</a></td>
+            </tr>
+        </table>
+
+        <!-- Pengalaman -->
+        <h2 id="experience">Pengalaman</h2>
+        <ul>
+            <li>Staff IT di BPRS Bandar Lampung (2022)</li>
+            <li>Barista di Krah Coffee, Tangerang Selatan (2023)</li>
+        </ul>
+
+        <!-- Pendidikan -->
+        <h2 id="education">Pendidikan</h2>
+        <ul>
+            <li>SMKN 2 Bandar Lampung</li>
+            <li>S1 Teknik Informatika - Institut Teknologi Sumatera (ITERA)</li>
+        </ul>
+
+        <!-- Kontak -->
+        <h2 id="contact">Kontak</h2>
+        <p>Anda dapat menghubungi saya melalui <a href="mailto:omar.123140198@student.itera.ac.id">email</a> atau mengikuti saya di <a href="https://www.linkedin.com/in/omar-athaya-vito-753757331" target="_blank">LinkedIn</a>.</p>
+    </div>
+</body>
+</html>
